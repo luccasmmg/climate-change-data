@@ -10,6 +10,8 @@ original csv: http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv
 <Vega spec={{
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "https://raw.githubusercontent.com/luccasmmg/climate-change-data/main/co2-fossil-by-nation/data/fossil-fuel-co2-emissions-by-nation_csv.csv"},
+      "height": 500,
+      "width": "container",
    "transform": [{ "filter": { "field": "Country", "oneOf": ["CHINA (MAINLAND)", "UNITED STATES OF AMERICA", "INDIA", "RUSSIAN FEDERATION", "JAPAN", "GERMANY", "ISLAMIC REPUBLIC OF IRAN", "SAUDI ARABIA", "REPUBLIC OF KOREA", "CANADA"]}}],
   "mark": "line",
   "encoding": {
