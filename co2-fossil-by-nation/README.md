@@ -6,6 +6,21 @@ original csv: http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv
 
 <FlatUiTable url="https://raw.githubusercontent.com/luccasmmg/climate-change-data/main/co2-fossil-by-nation/data/fossil-fuel-co2-emissions-by-nation_csv.csv" />
 
+## Changes over time in emissions by country
+<VegaLite data=
+{{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Changes over time in emissions by country.",
+  "data": {"url": "https://raw.githubusercontent.com/luccasmmg/climate-change-data/main/co2-fossil-by-nation/data/fossil-fuel-co2-emissions-by-nation_csv.csv"},
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal"},
+    "y": {"field": "Total", "type": "quantitative"},
+    "color": {"field": "Country", "type": "nominal"}
+  }
+}} />
+
+
 ## Preparation
 The data was prepared by the datahub.io project. You could find it here:  
 https://datahub.io/core/co2-fossil-by-nation  
