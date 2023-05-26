@@ -2,6 +2,8 @@ CO2 PPM - Trends in Atmospheric Carbon Dioxide. Data are sourced from the US Gov
 
 ## Data
 
+<FlatUiTable url="https://raw.githubusercontent.com/luccasmmg/climate-change-data/main/co2-ppm/data/co2-mm-mlo_csv.csv" />
+
 ### Description
 
 > Data are reported as a dry air mole fraction defined as the number of molecules of carbon dioxide divided by the number of all molecules in air, including CO2 itself, after water vapor has been removed. The mole fraction is expressed as parts per million (ppm). Example: 0.000400 is expressed as 400 ppm.[*][ccgg-trends]
