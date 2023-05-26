@@ -4,6 +4,8 @@ Per Country CO2 Emissions from fossil-fuels annually since 1751 till 2014.
 Data comes from the [Carbon Dioxide Information Analysis Center (CDIAC)][cdiac].
 original csv: http://cdiac.ornl.gov/ftp/ndp030/CSV-FILES/nation.1751_2014.csv
 
+<FlatUiTable url="https://raw.githubusercontent.com/luccasmmg/climate-change-data/main/co2-fossil-by-nation/data/fossil-fuel-co2-emissions-by-nation_csv.csv" />
+
 ## Preparation
 The data was prepared by the datahub.io project. You could find it here:  
 https://datahub.io/core/co2-fossil-by-nation  
